@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -81,26 +82,23 @@ html {
 }
 .squ{
     border: 2px solid #cedebd;
-    width: 700px;
-    height: 400px;
+    width: 680px;
+    height: 350px;
     margin-left: 120px;
     opacity:0.45;
 }
-.allbtn{
-    font-family: 'Nunito', sans-serif;
-}
  .startbtn{
     position: absolute;
-    left: 75%;
-    top: 35%;
+    left: 20%;
+    top: 90%;
     background-color: #000;
     border: none;
     color: #cedebd;
 } 
 .resetbtn{
     position: absolute;
-    left: 75%;
-    top: 55%;
+    left: 25%;
+    top: 90%;
     background-color: #000;
     border: none;
     color: #cedebd;
@@ -108,8 +106,8 @@ html {
 
 .randombtn{
     position: absolute;
-    left: 75%;
-    top: 60%;
+    left: 70%;
+    top: 35%;
     background-color: #000;
     border: none;
     color: #cedebd;
@@ -117,40 +115,40 @@ html {
 
 .searchbtn{
     position: absolute;
-    left: 75%;
-    top: 65%;
+    left: 70%;
+    top: 40%;
     background-color: #000;
     border: none;
     color: #cedebd;
 }
 .delaybtn{
     position: absolute;
-    left: 75%;
-    top: 70%;
+    left: 70%;
+    top: 45%;
     background-color: #000;
     border: none;
     color: #cedebd;
 }
 .shfuel{
     position: absolute;
-    left: 75%;
-    top: 75%;
+    left: 70%;
+    top: 50%;
     border: none;
     color: #cedebd;
 }
 
 .shtime{
     position: absolute;
-    left: 75%;
-    top: 80%;
+    left: 70%;
+    top: 55%;
     border: none;
     color: #cedebd;
 }
 
 .shpath{
     position: absolute;
-    left: 75%;
-    top: 85%;
+    left: 70%;
+    top: 60%;
     border: none;
     color: #cedebd;
 }
