@@ -7,6 +7,13 @@ pre{
     color: white;
 }
 
+#map{
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    color: white;
+}
+
 .center{
     display: flex;
     align-items: center;

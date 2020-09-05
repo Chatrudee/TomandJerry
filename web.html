@@ -9,14 +9,18 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
   <title>Tom and Jerry</title>
-
+  <script>
+    function randommap(){
+      document.getElementById("map").textContent = Math.floor(Math.random() * 5) + 1
+    }
+  </script>
 </head>
+
 <body>
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front center">
-      Tom and Jerry 
-      <pre> (Mouse on to show all members)</pre>
+      Tom and Jerry<pre> (Mouse on to show all members)</pre>
     </div>
     <div class="flip-card-back">
       <table class="center">
@@ -27,18 +31,15 @@
           <td>Little</td><td>Aon</td><td>Nice</td><td>Pakbung</td><td>Namob</td>
         </tr>
       </table>
+    </div>
   </div>
-  </div>
-  
-  <!--<div id="head">Tom and Jerry</div>-->
 </div>
-<div style="height: 60px;"></div>
-</head>
-<body>
+<div style="height: 40px;"></div>
+  <div id="map">0</div>
   <div>
     <button class="startbtn">Start</button>
     <button class="resetbtn">Reset</button>
-    <button class="randombtn">Random map</button>
+    <button class="randombtn" onclick="randommap()">Random map</button>
     <button class="searchbtn">Search</button>
     <button class="delaybtn">Delay</button>
     <div class="shfuel">Fuel :</div>
