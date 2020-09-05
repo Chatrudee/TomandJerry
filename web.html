@@ -10,7 +10,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
   <script>
     function randommap() {
-      document.getElementById("map").textContent = Math.floor(Math.random() * 5) + 1
+      var mapnum = Math.floor(Math.random() * 5) + 1
+      var x = ""
+      if(mapnum == 1){
+        x = "Map Pakbung"
+      }
+      if(mapnum == 2){
+        x = "Map Nice"
+      }
+      if(mapnum == 3){
+        x = "Map Namob"
+      }
+      if(mapnum == 4){
+        x = "Map Aon"
+      }
+      if(mapnum == 5){
+        x = "Map Little"
+      }
+      document.getElementById('map').textContent = x
     }
   </script>
   <title>Tom and Jerry</title>
