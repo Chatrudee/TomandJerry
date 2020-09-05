@@ -86,6 +86,9 @@ html {
     margin-left: 120px;
     opacity:0.45;
 }
+.allbtn{
+    font-family: 'Nunito', sans-serif;
+}
  .startbtn{
     position: absolute;
     left: 75%;

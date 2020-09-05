@@ -2,49 +2,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/path/to/parallax.js"></script>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <script src="/path/to/parallax.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
   <title>Tom and Jerry</title>
+  <link rel="stylesheet" href="style.css">
 
-</head>
-<body>
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front center">
-      Tom and Jerry 
-      <pre> (Mouse on to show all members)</pre>
-    </div>
-    <div class="flip-card-back">
-      <table class="center">
-        <tr>
-          <td>60010134,</td><td>60010173,</td><td>60010242,</td><td>60010549,</td><td>60010603</td>
-        </tr>
-        <tr>
-          <td>Little</td><td>Aon</td><td>Nice</td><td>Pakbung</td><td>Namob</td>
-        </tr>
-      </table>
-  </div>
-  </div>
-  
-  <!--<div id="head">Tom and Jerry</div>-->
-</div>
-<div style="height: 60px;"></div>
 </head>
 <body>
   <div>
     <button class="startbtn">Start</button>
     <button class="resetbtn">Reset</button>
     <button class="randombtn">Random map</button>
-    <button class="searchbtn">Search</button>
-    <button class="delaybtn">Delay</button>
+    <select name="search" class="searchbtn">
+      <option disabled>Select Search</option>
+      <option value="iterative">Iterative Search</option>
+      <option value="uniform">Uniform Cost Search</option>
+    </select>
+    <select name="delay" class="delaybtn">
+      <option disabled>Select Delay</option>
+      <option value="1">1x</option>
+      <option value="2">2x</option>
+      <option value="3">3x</option>
+    </select>
     <div class="shfuel">Fuel :</div>
     <div class="shtime">Time :</div>
     <div class="shpath">Path : </div>
-    <h1 class="head">Star map : </h1>
+    <h1 class="head">Star map</h1>
     <h3 class="step">Step &nbsp; : &nbsp; Press random map &nbsp; > &nbsp; Select search &nbsp; > &nbsp; Start</h3>
     <div ><img class="squ" src="crash.gif" alt=""></div>
   </div>
